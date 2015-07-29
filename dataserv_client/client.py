@@ -177,7 +177,7 @@ def _parse_args(args):
     )
     poll_parser.add_argument(
         "--delay", default=DEFAULT_DELAY,
-        help="Deley between each ping."
+        help="Delay between each ping."
     )
     poll_parser.add_argument(
         "--limit", default=None,
